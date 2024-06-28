@@ -1,0 +1,61 @@
+/* Create a stylesheet.css file and import it into the index.html file. 
+   Add a new div with a class name of "info".*/
+
+.info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inside that div add an <h2> My name is YOUR NAME </h2>
+   Add a background-color and a text color of your choice to the h2. */
+.info h2 {
+  background-color: #5e1603;
+  color: #adad9d;
+}
+
+/* Add an image tag <img> and source an image of your main mode of transportation 
+   (you car, bus, scooter, bike, feet, etc)*/
+.info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+/* Add an <h3> that explains your mode of transportation. 
+   Add a background-color and a text color of your choice.*/
+.info h3 {
+  background-color: #f8f9fa;
+  color: #696966;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+.slideshow-container {
+    position: relative;
+    max-width: 100px;
+    margin: auto;
+  }
+
+  mySlides {
+    display: none;
+  }
+  
+  .mySlideshow .fade {
+    transition: all 0.3s ease;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  

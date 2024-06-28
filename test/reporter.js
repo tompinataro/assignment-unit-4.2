@@ -53,4 +53,23 @@ class MyReporter {
     }
 }
 
+var slideIndex = 0;
+showSlides(slideIndex);
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("mySlides");
+  for (let i = 0; i < slides.length; i++) {
+    if (i == n) {
+      slides[i].style.display = "block";
+    } else {
+      slides[i].style.display = "none";
+    }
+  }
+}
+
+window.onload = function() {
+  showSlides(slideIndex);
+}
+
+
 module.exports = MyReporter;

@@ -12,10 +12,53 @@
 
   </head>
   <body>
-    <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
-    <p>See console for output. <a href="">Refresh</a> the page to re-run tests.</p>
+    <!-- Place the existing <h1> and <p> inside of a header element 
+      and add a background-color to that header. 
+      (Also changed font color to retain ease of reading visibility)-->
+
+    <header style="background-color: #4b0b0b; color: #c8c877;">
+
+      <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
+        <p style="color: #c5a1a1;"> See console for output. <a style="color: #88d226;" href="">Refresh</a> the page to re-run tests.</p>
+
+    </header>
+
+    <!-- Create a stylesheet.css file and import it into the index.html file.-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Add a new div with a class name of "info".-->
+    <div class="info">
+
+    <!-- Inside that div add an <h2> My name is YOUR NAME </h2> -->
+      <h2>My Name is Tom Pinataro</h2>
+     
+    <!-- Add an image tag <img> and source an image of your main mode of transportation (you car, bus, scooter, bike, feet, etc)-->
+        <img src="Car2.jpeg">
+        <img src="IMG_9279.jpg">
+        <img src="Car3.jpeg">
+        <img src="Car4.jpeg">
+
+    
+    <!-- Add an <h3> that explains your mode of transportation. Add a background-color and a text color of your choice.-->
+      <h3> My ride is a Chrysler 200S </h3>
+    </div>
 
 
+    <!-- Slideshow container -->
+    <div class="mySlides fade">
+      <div class="slide">
+        <img src="Car2.jpeg" style="width:100%">
+      </div>
+      <div class="slide">
+        <img src="IMG_9279.jpg" style="width:100%">
+      </div>
+      <div class="slide">
+        <img src="Car3.jpeg" style="width:100%">
+      </div>
+      <div class="slide">
+        <img src="Car4.jpeg" style="width:100%">
+      </div>
+    </div>
 
     <!-- Used for automated testing -->
     <div id="mocha"></div>
